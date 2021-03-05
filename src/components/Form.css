@@ -1,0 +1,97 @@
+form {
+  width: 50%;
+  margin-right: 50px;
+}
+
+input {
+  width: 300px;
+  height: 30px;
+  background-color: rgb(56, 50, 51);
+  border: none;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  outline: none;
+  border-radius: 5px;
+}
+
+input:hover {
+  background-color: lightgray;
+}
+
+textarea:hover {
+  background-color: lightgray;
+}
+
+textarea {
+  width: 400px;
+  height: 300px;
+  background-color: rgb(56, 50, 51);
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+label {
+  font-size: 20px;
+  color: rgb(200, 206, 207);
+  margin-top: 50px;
+  font-weight: 900;
+}
+
+.contact-submit-message {
+  margin-right: 30px;
+  margin-top: 40px;
+  text-align: center;
+}
+
+.contact-submit-message > p {
+  font-size: 25px;
+  font-weight: 600;
+  color: rgb(200, 206, 207);
+}
+
+button {
+  background-color: #333333;
+  border: none;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 600;
+  color: rgb(200, 206, 207);
+}
+
+@media screen and (max-width: 768px) {
+  form {
+    width: 50%;
+    margin-right: auto;
+  }
+
+  input {
+    width: 200px;
+    height: 25px;
+  }
+
+  textarea {
+    width: 330px;
+    height: 300px;
+  }
+
+  label {
+    font-size: 15px;
+  }
+
+  .contact-submit-message {
+    margin-right: 30px;
+    margin-top: 40px;
+    text-align: center;
+  }
+
+  .contact-submit-message > p {
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(200, 206, 207);
+  }
+}

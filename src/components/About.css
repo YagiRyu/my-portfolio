@@ -1,0 +1,52 @@
+.about {
+  background-color: rgb(43, 43, 43);
+  display: flex;
+  padding: 130px;
+  justify-content: center;
+}
+
+.about__img > img {
+  border-radius: 50%;
+  width: 170px;
+}
+
+.about__content {
+  color: rgb(200, 206, 207);
+  margin-left: 120px;
+}
+
+.about__content > p {
+  font-family: "Abel";
+  margin-top: 20px;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+  line-height: 30px;
+  font-size: 20px;
+}
+
+.about__content > h2 {
+  font-size: 30px;
+}
+
+@media screen and (max-width: 768px) {
+  .about {
+    padding: 80px 20px;
+  }
+
+  .about__img > img {
+    width: 130px;
+  }
+
+  .about__content {
+    margin-left: 30px;
+  }
+
+  .about__content > p {
+    line-height: 25px;
+    font-size: 18px;
+  }
+
+  .about__content > h2 {
+    font-size: 25px;
+  }
+}
