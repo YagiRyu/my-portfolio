@@ -9,7 +9,7 @@ const Nav = styled.nav `
 const Navbar = () => {
     return (
         <Nav>
-            <Burger /> 
+            <Burger />
         </Nav>
     )
 }
