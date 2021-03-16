@@ -2,8 +2,6 @@ import React from 'react';
 import './App.css';
 import Main from './components/Main';
 
-//npm install -g firebase-tools
-
 function App() {
 
   return (
