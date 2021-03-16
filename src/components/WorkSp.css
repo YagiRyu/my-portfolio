@@ -1,0 +1,29 @@
+.workSp {
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.grid__sp {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.work__image > img {
+  width: 100%;
+}
+
+.grid__sp > h3 {
+  font-size: 20px;
+  font-weight: 900;
+  color: rgb(234, 104, 26);
+  margin-bottom: 20px;
+}
+
+.work__image > p {
+  font-size: 18px;
+  font-weight: 900;
+  color: rgb(211, 211, 211);
+  text-decoration: underline rgb(234, 104, 26);
+  margin-top: 10px;
+}
