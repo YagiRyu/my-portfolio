@@ -1,6 +1,6 @@
 import React from 'react';
 import Header from './Header';
-import './Top.css';
+import '../style/Top.css';
 import InstagramIcon from '@material-ui/icons/Instagram';
 import TwitterIcon from '@material-ui/icons/Twitter';
 import FacebookIcon from '@material-ui/icons/Facebook';

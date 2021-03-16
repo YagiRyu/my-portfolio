@@ -1,5 +1,5 @@
 import React from 'react';
-import './Contact.css';
+import '../style/Contact.css';
 import MailOutlineIcon from '@material-ui/icons/MailOutline';
 import Form from './Form';
 import { Link } from "react-scroll";

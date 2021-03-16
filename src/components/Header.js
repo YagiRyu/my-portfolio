@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import './Header.css';
+import '../style/Header.css';
 import { Link } from "react-scroll";
 import Navbar from './component / Nav/Navbar';
 
