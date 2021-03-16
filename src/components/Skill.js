@@ -1,5 +1,5 @@
 import React from 'react';
-import '../style/Skill.css';
+import './Skill.css';
 import Jump from 'react-reveal/Jump';
 
 function Skill() {

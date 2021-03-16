@@ -1,5 +1,5 @@
 import React from 'react';
-import '../style/WorkSp.css';
+import './WorkSp.css';
 import netflix from '../image/netflix.png';
 import spotify from '../image/spotify.png';
 import twitter from '../image/twitter.png';
